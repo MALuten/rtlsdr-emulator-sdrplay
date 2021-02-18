@@ -12,6 +12,17 @@ After adding SDRplay support to some rtlsdr-based software packages, i.e.
 dump1090 and acarsdec, it was felt that rewriting each piece of 
 rtlsdr based software for SDRplay support was hardly an ideal approach.
 
+This fork has been updated for API version 3 (not tested yet). Linux only.
+To build for API version 3, clone the repo and:
+```
+make -f Makefile.Linux
+```
+
+For API version 2, clone the repo and:
+```
+make -f Makefile.LinuxAPI2
+```
+
 ---------------------------------------------------------------------------
 
 Therefore an other approach was taken: create a library that shows itself as
