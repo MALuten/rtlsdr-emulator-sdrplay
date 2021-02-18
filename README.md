@@ -13,12 +13,13 @@ dump1090 and acarsdec, it was felt that rewriting each piece of
 rtlsdr based software for SDRplay support was hardly an ideal approach.
 
 This fork has been updated for API version 3 (not tested yet). Linux only.
-To build for API version 3, clone the repo and:
+
+To build for API version 3, clone the repo and execute:
 ```
 make -f Makefile.Linux
 ```
 
-For API version 2, clone the repo and:
+For API version 2:
 ```
 make -f Makefile.LinuxAPI2
 ```
