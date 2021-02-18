@@ -2,7 +2,7 @@
 all:    librtlsdr.so
 
 librtlsdr.so:     rtlsdr-bridge.c signal-queue.c gains.h gains.c 
-	gcc -O2 -fPIC -g -shared  -I . -o librtlsdr.so rtlsdr-bridge.c signal-queue.c gains.c -lmirsdrapi-rsp
+	gcc -O2 -fPIC -g -shared  -I . -o librtlsdr.so rtlsdr-bridge.c signal-queue.c gains.c -lsdrplay_api
 
 clean:
 	rm librtlsdr.so
