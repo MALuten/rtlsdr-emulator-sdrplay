@@ -1,4 +1,3 @@
-
 all:    librtlsdr.so
 
 librtlsdr.so:     rtlsdr-bridge.c signal-queue.c gains.h gains.c 
@@ -6,4 +5,3 @@ librtlsdr.so:     rtlsdr-bridge.c signal-queue.c gains.h gains.c
 
 clean:
 	rm librtlsdr.so
-
