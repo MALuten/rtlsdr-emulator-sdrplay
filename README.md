@@ -14,16 +14,6 @@ rtlsdr based software for SDRplay support was hardly an ideal approach.
 
 This fork has been updated for API version 3 (not tested yet). Linux only.
 
-To build for API version 3, clone the repo and execute:
-```
-make -f Makefile.Linux
-```
-
-For API version 2:
-```
-make -f Makefile.LinuxAPI2
-```
-
 ---------------------------------------------------------------------------
 
 Therefore an other approach was taken: create a library that shows itself as
@@ -123,6 +113,16 @@ for the Linux version.
 The "librtlsdr.so" file in the repository was made under Fedora 
 The "rtlsdr.dll" file in the respository was made under Fedora, using
 the Mingw64 32bits resource and C compilers.
+
+To build for Linux and API version 3, clone the repo and execute:
+```
+make -f Makefile.Linux
+```
+
+For API version 2:
+```
+make -f Makefile.LinuxAPI2
+```
 
 ------------------------------------------------------------------------------
 Issues
